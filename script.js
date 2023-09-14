@@ -36,7 +36,7 @@ function rot13(encodedStr) {
   // Only change code below this line
 
 	let A="A".charCodeAt(0);
-	let Z="Z".charcodeAt(0);
+	let Z="Z".charCodeAt(0);
 	for(let i=0;i<encodedStr.length;i++){
 		let currentChar=encodedStr[i].charCodeAt(0);
 		if(currentChar>=A && currentChar<=Z){
